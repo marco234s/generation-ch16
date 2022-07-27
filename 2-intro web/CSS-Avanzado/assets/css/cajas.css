@@ -1,0 +1,28 @@
+
+.cuadro {
+background-color: blue;
+height: 100px;
+width: 100px;
+
+
+}
+
+.el-1{
+    background-color: blueviolet;
+}
+
+.el-2{
+    background-color: rgb(43, 195, 226);
+}
+
+.el-3{
+    background-color: rgb(226, 43, 49);
+}
+
+.el-4{
+    background-color: rgb(43, 226, 116);
+}
+
+.el-5{
+    background-color: rgb(65, 27, 101);
+}

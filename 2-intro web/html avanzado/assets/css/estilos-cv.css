@@ -1,0 +1,20 @@
+h1{
+    background-color: rgb(222, 103, 44);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: auto;
+    height: 600px;
+
+}
+
+footer{
+    background-color: rgb(146, 196, 46);
+    width: auto;
+    height: 600px;
+
+}
