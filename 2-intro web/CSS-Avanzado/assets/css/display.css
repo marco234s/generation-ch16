@@ -1,0 +1,97 @@
+.cuadro-padre{
+    background-color: rgb(253, 206, 189);
+    height: 600px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    /*Nos permite alinear en horizontal*/
+    /*Recuerden a word*/
+    justify-content: center;
+
+     /*Nos permiyte alinear en vertical*/
+     align-items: center;
+
+}
+
+
+
+
+
+.cuadro{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+
+    /*
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin: 50px 40px 30px 20px;*/
+    padding: 50px 40px 30px 20px;
+    margin: 20px 40px;
+    border: 10px solid yellow;
+    border-radius: 10px 20px 30px 40px;
+    display: block;
+
+}
+
+
+.el-1{
+    background-color: blue;
+    align-self: flex-start;
+    flex-grow: 2;
+
+   /* position: fixed;
+    bottom: 0;
+    right: 0;*/
+}
+.el-2{
+    background-color: red;
+   /* position: absolute;
+    top: 100px;
+    left: 250px;*/
+    flex-grow: 1;
+}
+.el-3{
+    background-color: pink;
+    align-self: flex-end;
+    flex-grow: 1;
+
+    /*position: static;
+    bottom: 200px;
+    left: 200px;*/
+}
+.el-4{
+    background-color: green;
+    flex-grow: 1;
+   /* position: static;*/
+}
+
+
+/*Introduccion a Boostrap*/
+
+.contenedor {
+height: 200px;
+background-color: greenyellow;
+
+max-width: 1500px;
+margin: 0 auto;
+
+}
+
+.fila {
+    display: flex;
+
+
+}
+
+.columna {
+    flex-grow: 1;
+}
+
+.color-rojo {
+    background-color: red;
+}
