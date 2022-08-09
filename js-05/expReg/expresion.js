@@ -1,6 +1,6 @@
-//let texto = "hoy parece que va a salir el sol";
-//let texto01 = "la espero en el aeropuerto de LA";
-let texto01 = "le marque anocvhe";
+let texto01 = "usuario@servidor.com";
 
-let buscar = /[eo]/;
+let buscar = /[\w]/+@{1}[\w]+\.[a-z]{2,3}/;
 console.log(buscar.test(texto01));
+
+
