@@ -28,7 +28,6 @@ public class colecciones2 {
         System.out.println(miSet.size());
         System.out.println(miSet.contains("Juan"));
 
-        for()
 
 
 
