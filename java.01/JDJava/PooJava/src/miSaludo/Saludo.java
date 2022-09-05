@@ -1,3 +1,5 @@
+package miSaludo;
+
 public class Saludo {
 
     String textoS = "Hola Mundo Java opp";
